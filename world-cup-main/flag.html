@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country-Flag</title>
+     <!-- style -->
+<style>
+    body{
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size:40px;
+}
+.pele, .backgroun{
+    background-color: rgb(12, 11, 11);
+    color: white;
+    height: 500px;
+    width: 100vw;
+    padding-left: 30px;
+
+    border-radius: 25px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.pele{
+    max-width: 1700px;
+    margin: 0 50px;
+}
+.pele-1{
+    margin-top: 4em;
+    margin-left: 1em;
+}
+.pele, .backgroun-1{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.blog{
+    border: 8px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    font-size: 1.5em;
+    padding: 5px 5px;
+    font-weight: 700;
+}
+.blog input[type="submit"]{
+    background-color: red;
+    color: whitesmoke;
+}
+.container{
+  
+position: absolute;
+width: 312px;
+height: 175px;
+left: 350px;
+top: 575px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.courses{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    margin-left: 70px;
+}
+.course-banner{
+    display: flex;
+    
+}
+.course-title{
+    border: 1px solid black;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+}
+.course-author{
+    font-weight: 600;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+
+
+/* footer */
+.rrrr{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-top: 60em;
+    display: flex;
+    justify-content: center;
+}
+.content li {
+    text-decoration: none;
+    display: flex;
+}
+.content{
+   
+    border: 1px solid black;
+    word-spacing: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-1{
+    text-align: center;
+}
+.content, .uuuu{
+    text-decoration: none;
+    color: white;
+}
+/* Media Queries */
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .pele{
+        width: 100%;
+    }
+    .backgroun, .rrrr{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .container{
+        margin-right: 10em;
+    }
+    .container, .courses{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container, .courses{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+}
+</style>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/88fb275754.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <section class="pele">
+    <div class="backgroun">
+    <h1>The Greatest</h1>
+    <h1>show one the </h1>
+    <h1>earth</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur nisi error minima veniam expedita similique dignissimos animi, blanditiis libero sint itaque. Deserunt repellat quasi ipsa quae iste, illo nam quis.</p>
+    <a class="link-button" href="">Watch Live</a>
+    </div>
+    <div class="backgroun-1">
+        <img  src="assets/Banner Image.png" alt="">
+    </div>
+   </section>
+
+<section class="pele-1">
+<form class="blog">
+    <input class="ttt" type="submit" value="Upcoming-Match" >
+    <input class="rrr" type="submit" value="All Group" >
+    <input type="submit" value="Blog">
+</form>
+</section>
+
+<section class="container">
+    <div class="courses">
+        <div class="course">
+            <div class="course-banner">
+                <img src="assets/Flag.png" alt=""> 
+                <h2>vs</h2>
+                <img src="assets/germany Flag.png" alt="">
+            </div>
+            <div class="course-detail">
+                
+                
+                
+                <div class="course-info">
+                    <div>
+                       <p>Germany vs</p>
+                       <span>April,01,2023</span> 
+                    </div>
+                    
+                    <div class="course-duration">
+                        <p>France</p>
+                        <span>1.00.Am</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="course-banner">
+                <img src="assets/Flag.png" alt="">
+                <h2>vs</h2>
+                <img src="assets/germany Flag.png" alt="">
+            </div>
+            <div class="course-detail">
+                
+               
+                
+                <div class="course-info">
+                    <div>
+                        <p>Germany VS</p>
+                       <span>April,01,2023</span> 
+                    </div>
+                    
+                    <div class="course-duration">
+                        <p>France</p>
+                        <span>1.00.am</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="course-banner">
+                <img src="assets/Flag.png" alt="">
+                <h2>vs</h2>
+                <img src="assets/germany Flag.png" alt="">
+            </div>
+            <div class="course-detail">
+               
+                
+                <div class="course-info">
+                    <div>
+                        <p>Germany VS</p>
+                       <span>April,01,2023</span> 
+                    </div>
+                    
+                    <div class="course-duration">
+                       <p>France</p>
+                        <span>1.00.Am</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="course-banner">
+                <img src="assets/Flag.png" alt="">
+                <h2>vs</h2>
+                <img src="assets/germany Flag.png" alt="">
+            </div>
+            <div class="course-detail">
+         
+                
+                <div class="course-info">
+                    <div>
+                        <p>Germany Vs</p>
+                       <span>April,01.2023</span> 
+                    </div>
+                    
+                    <div class="course-duration">
+                        <p>France</p>
+                        <span>01.am</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="course-banner">
+                <img src="assets/Flag.png" alt="">
+                <h2>vs</h2>
+                <img src="assets/germany Flag.png" alt="">
+            </div>
+            <div class="course-detail">
+               
+                
+                <div class="course-info">
+                    <div>
+                      <p>Germany VS</p>
+                       <span>April,01,2023</span> 
+                    </div>
+                    
+                    <div class="course-duration">
+                        <p>France</p>
+                        <span>01.am</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="course-banner">
+                <img src="assets/Flag.png" alt="">
+                <h2>vs</h2>
+                <img src="assets/germany Flag.png" alt="">
+            </div>
+            <div class="course-detail">
+               
+                
+                <div class="course-info">
+                    <div>
+                      <p>Germany Vs</p>
+                       <span>April,01,2023</span> 
+                    </div>
+                    
+                    <div class="course-duration">
+                        <p>France</p>
+                        <span>01.am</span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+      
+    </div>
+
+</section>
+
+<section class="rrrr">
+    <footer>
+        <div class="footer-content">
+            <h2 class="content-1">Goal</h2>
+            <ul class="content">
+                <li><a class="uuuu" href="">contact us</a></li>
+                <li><a class="uuuu" href="">Terms of Service</a></li>
+                <li><a class="uuuu" href="">Privacy Policy</a></li>
+                <li><a class="uuuu" href="">Privacy Settings</a></li>
+                <li><a class="uuuu" href="">Goal App</a></li>
+                <li><a class="uuuu" href="">Goal Live</a></li>
+            </ul>
+        </div>
+    </footer>
+</section>
+</body>
+</html>
